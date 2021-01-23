@@ -11,7 +11,8 @@ Resources are most useed elements in Terraform IAC. Each config file can contain
 source: https://www.terraform.io/docs/language/resources/syntax.html
 
 #### Resource block Syntax: 
-```resource <resource_type> <resource_name> {
+```
+resource <resource_type> <resource_name> {
     <attribute1> = <value>
     <attribute2> = <value>
 }
@@ -19,7 +20,8 @@ source: https://www.terraform.io/docs/language/resources/syntax.html
 
 #### sample:
 
-```resource "local_file" "sample_file" {
+```
+resource "local_file" "sample_file" {
     filename = "/root/sample.txt"
     content = "This is a sample text content"
 }
